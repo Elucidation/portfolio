@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- YAML Layout - http://www.yaml.de -->
+    <meta charset="utf-8"/>
+    <title>Sam's Portfolio</title>
+
+    <!-- Mobile viewport optimisation -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- (en) Add your meta data here -->
+    <meta name="description" content="Portfolio for Sam - Sameer Ansari"/>
+    <meta name="author" content="Sameer Ansari"/>
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <link href="./css/flexible-grids.css" rel="stylesheet" type="text/css"/>
+    <!--[if lte IE 7]>
+    <link href="./yaml/core/iehacks.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-47993702-1', 'sameeransari.info');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+<ul class="ym-skiplinks">
+    <li><a class="ym-skip" href="#nav">Skip to navigation (Press Enter)</a></li>
+    <li><a class="ym-skip" href="#main">Skip to main content (Press Enter)</a></li>
+</ul>
+
+<header>
+    <div class="ym-wrapper">
+        <div class="ym-wbox">
+            <h1>Sam - Sameer Ansari</h1>
+        </div>
+    </div>
+</header>
+
+<nav id="nav">
+    <div class="ym-wrapper">
+        <div class="ym-hlist">
+            <ul>
+                <li class="active"><strong>Main</strong></li>
+                <li><a href="./robotics.html">Robotics</a></li>
+                <li><a href="./compsci.html">Computer Science</a></li>
+                <li><a href="./mecheng.html">Mechanical Engineering</a></li>
+                <li><a href="./personalprojects.html">Personal Projects</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="main">
+    <div class="ym-wrapper">
+        <div class="ym-wbox">
+            <section class="ym-grid linearize-level-1">
+                <article class="ym-g50 ym-gl content">
+                    <div class="ym-gbox-left ym-clearfix">
+                        <img src="./images/sam.jpg" alt="Sam - Sameer Ansari" class="float-left bordered"/>
+                        <p><b>(Last updated in 2014)</b><br/> Hi there, I am a student at <a href="http://www.ri.cmu.edu/">Carnegie Mellon Robotics Institute</a> pursuing a <a href="http://www.ri.cmu.edu/MRSD">Master's of Science in Robotics Systems Development</a>, with planned graduation date Dec 2014.</p>
+                        <p>I graduated from <txt title="Georgia Institute of Technology"><a href="http://www.gatech.edu/">Georgia Tech</a></txt> with a <a href="http://colleges.usnews.rankingsandreviews.com/best-colleges/rankings/engineering-doctorate-mechanical/data#"><txt title="Bachelors in Mechanical Engineering">BSME</txt></a> and a <a href="http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-science-schools/artificial-intelligence-rankings"><txt title="Bachelors in Computer Science">BSCS</txt></a>, specializing in Modeling/Simulation and Artificial Intelligence.</p>
+                        <p>I love building <a href="./personalprojects.html#tankbot_v2">robots</a>, designing their minds, and <a href="./compsci.html#C3">developing large-scale distributed simulations and services</a>, especially on the cloud. I'm certain that the future of robotics and drone technologies involves <a href="http://www.willowgarage.com/blog/2011/05/12/google-io-2011-cloud-robotics-ros-java-and-android">cloud-based intelligence augmenting the physical robot</a> as much as smartphones are augmenting humans, and I am actively researching ways to merge these fields.</p>
+
+                        <p>I have interned at Google, SpaceX, and Amazon, which has given me a broad range of experience in designing and developing code that is extremely simple, reliable, and scalable.</p>
+
+                        <p>I've designed the <a href="./compsci.html#C3">Climate Cloud Configurator (C3)</a> prototype service automating configuration and deployment of <a href="http://www.cesm.ucar.edu/">Community Earth System Model (CESM)</a> simulations on the <a href="http://aws.amazon.com/ec2/">Amazon EC2 Cloud</a>, that is part of a <a href="http://dx.doi.org/10.1109/MS.2011.114">published article in IEEE Computer Society</a>.</p>
+
+                        <p>I was accepted to go to the <a href="http://sc12.supercomputing.org/">SuperComputing 2012</a> conference Nov '12  as one of 25 undergraduates selected for <a href="http://sc12.supercomputing.org/content/experiencing-hpc-undergraduates">The Experiencing HPC for Undergraduates</a> program, in part due to my academic coursework in HPC where I developed simulation code in C and Cuda to run on Georgia Tech's Jinx supercomputing cluster with NVIDIA Fermi graphics cards. I was also the only undergraduate <a href="http://sc12.gatech.edu">ambassador for Georgia Tech</a> at the conference.</p>
+
+                        <p>I was accepted to attend <a href="http://nyuad.nyu.edu/news-events/conferences/nyuad-hackathon.html">NYU Abu Dhabi Hackathon</a> as the international representative for Carnegie Mellon. Our team <a href="./robotics.html#wellsense">WellSense</a> <a href="http://nyuad.nyu.edu/news-events/conferences/nyuad-hackathon.html">won 3rd place</a> in the 2-day hackathon for building a cost-effective software &amp; hardware water-well pump monitoring system that costs $30 instead of the $860 solution currently in place.</p>
+
+                        <h3>Publications &amp; Presentions</h3>
+                        <blockquote>
+                            <p>Spencer Rugaber, Leo Mark, Rocky Dunlap, and Sameer Ansari. "<a href="http://dx.doi.org/10.1109/MS.2011.114">Managing Software Complexity and Variability in Coupled Climate Models</a>." IEEE Software (2011). Print.</p>
+                            <p>Kyel Ok, Sameer Ansari, William Gallagher, William Sica, Frank Dellaert, Mike Stilman, "<a href="http://dx.doi.org/10.1109/ICRA.2013.6631230">Path Planning with Uncertainty: Voronoi Uncertainty Fields</a>." IEEE International Conference on Robotics and Automation 2013.</p>
+                            <p>Sameer Ansari, Rocky Dunlap. "<a href="http://hdl.handle.net/1853/35010">Automatic Configuration of CESM/CCSM4 on Amazon EC2 Cloud</a>.” Tech. Georgia Institute of Technology (2010). SMARTech..</p>
+                            <p>V. Balaji, Sameer Ansari, Aparna Radhakrishnan (2011), "<a href="http://adsabs.harvard.edu/abs/2011AGUFMIN41C..01B">Challenges in Analysis and Visualization of Large Earth Science Data Sets I</a>." Abstract IN41C-01 presented at 2010 Fall Meeting, AGU, San Francisco, Calif., 8 Dec.</p>
+                        </blockquote>
+                    </div>
+                </article>
+                <aside class="ym-g50 ym-gr secondary">
+                    <div class="ym-gbox-right ym-clearfix">
+                        <h3>Contact Information</h3>
+                        <a href="https://github.com/Elucidation/" class="ym-button ym-next">GitHub / Email</a>
+                        <a href="http://www.linkedin.com/in/samansari" class="ym-button ym-next">LinkedIn</a>
+
+                        <h3>Internships</h3>
+                        <h4>Google</h4>
+                        <p>I interned with the <a href="https://cloud.google.com/">Google Cloud Platform</a> team - <a href="https://cloud.google.com/resources/tutorials-articles">Cloud Solutions</a> in Mountainview, CA, where we developed and published an open-source sample mobile application called <a href="https://github.com/GoogleCloudPlatform/solutions-orchestrator-android-sampleapp-smashpix">SmashPix</a> that demonstrates the full cloud ecosystem using Google technologies such as <a href="http://developer.android.com/index.html">Android mobile</a>, <a href="https://cloud.google.com/products/">App Engine</a>, <a href="https://cloud.google.com/products/compute-engine">Compute Engine</a>, <a href="https://cloud.google.com/products/cloud-storage">Cloud Storage</a>, and <a href="https://developers.google.com/appengine/docs/java/endpoints/">Cloud Endpoints</a>.</p>
+                        <p>I am a <a href="https://developers.google.com/qualify/">Google App Engine Qualified Developer</a>.</p>
+                        
+                        <h4>Space X</h4>
+                        <p>I interned at <a href="http://www.spacex.com/">SpaceX</a> for 5 months Jan-May 2013 as an Avionics intern - Flight Software in Hawthorne, CA. Among the projects I worked on, I extended three and developed two new GNC (Guidance, Navigation, Control) algorithms for the Falcon rocket flight computer. I also developed on the Dragon spacecraft flight computer creating a more powerful and extendable telemetry system to improve the performance of onboard telemetry logging for the Falcon 9 v1.1 launch and onwards, resulting in a magnitude increase in the amount of telemetry available from the flight computer.
+                        <p>I also performed full-stack design and deveopment of a database API as well as front-end interaction extending inhouse data warehousing, visualization &amp; real-time analysis of flight telemetry. The data warehouse extension was prototyped and implemented in 6 weeks (from the start of internship), and pushed out to Cape Canaveral, Hawthorne mission control and Texas. It was extremely useful during the CRS-2 Flight and is now an ongoing development project for the next and future flights.</p>
+
+                        <h4>Amazon Music</h4>
+                        <p>Summer 2012 with <a href="http://www.a2z.com">Amazon Music</a> in San Francisco, where I performed R&amp;D to improve the performance of a quality checking service that ran on Amazon's Mp3 Catalog.</p>
+                        <p>I researched and implemented new technologies and methods in an Agile environment that increased performance by 350%, resulting in a massive reduction of the host fleet needed to run the service as well as creating new opportunities.</p>
+
+                        <h4>NOAA - Geophysical Fluid Dynamics Laboratory</h4>
+                        <p>Interned with <txt title="National Oceanic and Atmospheric Administration">NOAA</txt> at the <a href="http://www.gfdl.noaa.gov/">Geophysical Fluid Dynamics Laboratory</a> as a summer student in the <a href="http://www.princeton.edu/aos/">Princeton Atmospheric &amp; Oceanic Sciences Dept.</a>, where I designed a web-service for running analysis scripts on climate model output that was presented at the <a href="http://sites.agu.org/fallmeeting/">AGU 2011 Conference</a> <a href="http://adsabs.harvard.edu/abs/2011AGUFMIN41C..01B">Abstract #(IN41C-01)</a>.</p>
+                    </div>
+                </aside>
+            </section>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="ym-wrapper">
+        <div class="ym-wbox">
+            <p>Cheers.</p>
+            <!-- Layout based on YAML - http://www.yaml.de -->
+            <!-- Sam A - Jan 2013 -->
+        </div>
+    </div>
+</footer>
+
+<!-- full skip link functionality in webkit browsers -->
+<script src="./yaml/core/js/yaml-focusfix.js"/>
+<script src="./lib/jquery-1.7.1.min.js" type="text/javascript"></script>
+</body>
+</html>
